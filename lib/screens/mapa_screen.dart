@@ -85,14 +85,14 @@ class _MapaScreenState extends State<MapaScreen> {
             ),
             ListTile(
               leading: const Icon(Icons.map, color: Colors.blue),
-              title: const Text('Mapa'),
+              title: const Text('Rutas'),
               onTap: () {
                 Navigator.pop(context);
               },
             ),
             ListTile(
-              leading: const Icon(Icons.info_outline, color: Colors.blue),
-              title: const Text('Acerca de'),
+              leading: const Icon(Icons.settings_cell_outlined, color: Colors.blue),
+              title: const Text('Retos'),
               onTap: () {
                 ScaffoldMessenger.of(context).showSnackBar(
                   const SnackBar(content: Text('Versión 1.0.0')),
@@ -100,15 +100,20 @@ class _MapaScreenState extends State<MapaScreen> {
               },
             ),
             ListTile(
-              leading: const Icon(Icons.settings, color: Colors.blue),
-              title: const Text('Configuración'),
+              leading: const Icon(Icons.monitor_heart, color: Colors.blue),
+              title: const Text('SAMSUNG HEALTH'),
+              onTap: () {},
+            ),
+            ListTile(
+              leading: const Icon(Icons.language, color: Colors.blue),
+              title: const Text('Idioma'),
               onTap: () {},
             ),
           ],
         ),
       ),
       appBar: AppBar(
-        title: const Text('Mapa de Ciclistas'),
+        title: const Text('Rodada Libre'),
         backgroundColor: Colors.blue,
       ),
       body: Column(

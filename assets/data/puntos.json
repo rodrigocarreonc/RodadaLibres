@@ -1,6 +1,28 @@
-[
-  { "tipo": "Bicis", "nombre": "Estación Línea Verde", "lat": 21.8818, "lng": -102.2960 },
-  { "tipo": "Agencias", "nombre": "Agencia Solidaridad", "lat": 21.8830, "lng": -102.2980 },
-  { "tipo": "Tiendas", "nombre": "Tienda Tecuexe", "lat": 21.8790, "lng": -102.3000 },
-  { "tipo": "Baños", "nombre": "Baños Bajío Palmas", "lat": 21.8780, "lng": -102.2940 }
-]
+{
+  "puntos": [
+    {
+      "nombre": "Estación Centro",
+      "tipo": "Estaciones",
+      "latitud": 21.8853,
+      "longitud": -102.2916
+    },
+    {
+      "nombre": "Agencia Norte",
+      "tipo": "Agencias",
+      "latitud": 21.8900,
+      "longitud": -102.3000
+    },
+    {
+      "nombre": "Tienda CicloPro",
+      "tipo": "Tiendas",
+      "latitud": 21.8820,
+      "longitud": -102.2800
+    },
+    {
+      "nombre": "Baños Plaza",
+      "tipo": "Baños",
+      "latitud": 21.8885,
+      "longitud": -102.2950
+    }
+  ]
+}
