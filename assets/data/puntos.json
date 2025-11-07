@@ -1,0 +1,6 @@
+[
+  { "tipo": "Bicis", "nombre": "Estación Línea Verde", "lat": 21.8818, "lng": -102.2960 },
+  { "tipo": "Agencias", "nombre": "Agencia Solidaridad", "lat": 21.8830, "lng": -102.2980 },
+  { "tipo": "Tiendas", "nombre": "Tienda Tecuexe", "lat": 21.8790, "lng": -102.3000 },
+  { "tipo": "Baños", "nombre": "Baños Bajío Palmas", "lat": 21.8780, "lng": -102.2940 }
+]
